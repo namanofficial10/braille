@@ -8,7 +8,7 @@
 void setup() {
   // put your setup code here, to run once:
   pinMode(MOTOR1, OUTPUT);
-  pinMode(MOTOR1, OUTPUT);
+  pinMode(MOTOR2, OUTPUT);
   
   digitalWrite(MOTOR1, HIGH);
   digitalWrite(MOTOR2, HIGH);
