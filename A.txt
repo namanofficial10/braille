@@ -9,9 +9,9 @@ void setup() {
   // put your setup code here, to run once:
   pinMode(MOTOR1, OUTPUT);
   
-  digitalWrite(LED1, HIGH);
+  digitalWrite(MOTOR1, HIGH);
   delay(1500);
-  digitalWrite(LED1, LOW);
+  digitalWrite(MOTOR1, LOW);
 }
 
 void loop() {
