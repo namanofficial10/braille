@@ -1,0 +1,21 @@
+#define MOTOR1 13
+#define MOTOR2 12
+#define MOTOR3 11
+#define MOTOR4 10
+#define MOTOR5 9
+#define MOTOR6 8
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(MOTOR1, OUTPUT);
+  
+  digitalWrite(LED1, HIGH);
+  delay(1500);
+  digitalWrite(LED1, LOW);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  
+}
+
