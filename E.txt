@@ -1,20 +1,17 @@
-#define MOTOR1 13
-#define MOTOR2 12
-#define MOTOR3 11
-#define MOTOR4 10
-#define MOTOR5 9
-#define MOTOR6 8
+#define MOTOR1 11
+#define MOTOR2 10
+#define MOTOR3 9
+#define MOTOR4 6
+#define MOTOR5 5
+#define MOTOR6 3
 
 void setup() {
   // put your setup code here, to run once:
   pinMode(MOTOR1, OUTPUT);
-  pinMode(MOTOR5, OUTPUT);
   
-  digitalWrite(MOTOR1, HIGH);
-  digitalWrite(MOTOR5, HIGH);
+  digitalWrite(MOTOR1, 255);
   delay(1500);
-  digitalWrite(MOTOR1, LOW);
-  digitalWrite(MOTOR5, LOW);
+  digitalWrite(MOTOR1, 0);
 }
 
 void loop() {
