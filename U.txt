@@ -11,13 +11,13 @@ void setup() {
   pinMode(MOTOR3, OUTPUT);
   pinMode(MOTOR6, OUTPUT);
   
-  digitalWrite(MOTOR1, HIGH);
-  digitalWrite(MOTOR3, HIGH);
-  digitalWrite(MOTOR6, HIGH);
+  analogWrite(MOTOR1, 255);
+  analogWrite(MOTOR3, 255);
+  analogWrite(MOTOR6, 255);
   delay(1500);
-  digitalWrite(MOTOR1, LOW);
-  digitalWrite(MOTOR3, LOW);
-  digitalWrite(MOTOR6, HIGH);
+  analogWrite(MOTOR1, 0);
+  analogWrite(MOTOR3, 0);
+  analogWrite(MOTOR6, 255);
 }
 
 void loop() {
